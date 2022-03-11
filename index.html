@@ -7,14 +7,39 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+
   <link rel="stylesheet" href="./style/index.css">
 
   <title>Conversor de Moeda</title>
 </head>
 
 <body>
-  <h1>SALVEE</h1>
+  <h1 class="title">Conversor de Moeda</h1>
 
+  <section class="converter">
+    <form class="wrapper-coin">
+      <input id="coin-1" class="coin" type="number" />
+      <select id="list-coin-1" class="list-coins">
+        <option value="BRL">Brasil(BRL)</option>
+        <option value="SEK">Suécia(SEK)</option>
+      </select>
+    </form>
+
+    <span>=</span>
+
+    <form class="wrapper-coin">
+      <input id="coin-2" class="coin" type="number" />
+      <select id="list-coin-2" class="list-coins">
+        <option value="BRL">Brasil(BRL)</option>
+        <option value="SEK">Suécia(SEK)</option>
+      </select>
+    </form>
+  </section>
+  <script src="./scripts/components/wrapper-coin.js"></script>
 </body>
 
 </html>
