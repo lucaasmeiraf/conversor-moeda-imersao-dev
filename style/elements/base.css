@@ -1,4 +1,22 @@
+html, body{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
 body{
     background-color: var(--color-background);
     color: var(--color-font);
+    font-family: 'Staatliches', sans-serif;
+    gap: 2rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+span{
+    font-size: 2rem;
 }

@@ -1,0 +1,16 @@
+.coin{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-background);
+    color: var(--color-font);
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+    padding: var(--gap-small);
+    border: 0.20rem solid var(--color-font);    width: 15rem;
+    cursor: pointer;
+
+}
+
+
+

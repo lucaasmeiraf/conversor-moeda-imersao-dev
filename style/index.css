@@ -1,3 +1,7 @@
 @import './settings/colors.css';
+@import './settings/gaps.css';
 @import './generic/reset.css';
 @import './elements/base.css';
+
+
+@import './components/index.css';
