@@ -21,25 +21,27 @@
   <h1 class="title">Conversor de Moeda</h1>
 
   <section class="converter">
-    <form class="wrapper-coin">
-      <input id="coin-1" class="coin" type="number" />
-      <select id="list-coin-1" class="list-coins">
+
+    <form id="wrapper-1" class="wrapper-coin">
+      <input class="coin" data-ref="coin" type="number" value="1" />
+      <select class="list-coins" data-ref="list-coins">
         <option value="BRL">Brasil(BRL)</option>
         <option value="SEK">Suécia(SEK)</option>
       </select>
-    </form>
+    </form> 
 
     <span>=</span>
 
-    <form class="wrapper-coin">
-      <input id="coin-2" class="coin" type="number" />
-      <select id="list-coin-2" class="list-coins">
-        <option value="BRL">Brasil(BRL)</option>
+    <form id="wrapper-2" class="wrapper-coin">
+      <input class="coin" data-ref="coin" type="number" value="0.5" />
+      <select class="list-coins" data-ref="list-coins">
         <option value="SEK">Suécia(SEK)</option>
+        <option value="BRL">Brasil(BRL)</option>
       </select>
     </form>
   </section>
-  <script src="./scripts/components/wrapper-coin.js"></script>
+  <script src="./scripts/components/wrapper-1.js"></script>
+  <script src="./scripts/components/wrapper-2.js"></script>
 </body>
 
 </html>
